@@ -1,0 +1,22 @@
+.nav-bar{
+    display: flex;
+    z-index: 1;
+    position: relative;
+    border: 1px solid gray;
+    background: transparent;
+    justify-content: space-between;
+    
+}
+.nav-glass{   
+    position: relative;
+}
+.nav-left{
+    display: flex;
+}
+.nav-logo{
+    height: 50px;
+}
+.nav-right{
+    display: flex;
+    gap: 5px;
+}

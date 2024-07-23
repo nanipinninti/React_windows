@@ -1,0 +1,36 @@
+.list-item{
+    width: 300px;
+    padding : 5px 10px 5px 10px;
+    border :1px solid  #b5b7c4;
+    border-radius: 5px;
+}
+
+.list-item-top{
+    display: flex;
+    justify-content: space-between;
+}
+.appointment-name{
+    color: #171f46;
+    font-size: 0.9rem;
+}
+.star-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.star-img{
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    margin-right:5px ;
+}
+.date-display{
+    color :  #b5b7c4;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+@media screen and (max-width:576px) {
+    .list-item{
+        width: 100%;
+    }
+}

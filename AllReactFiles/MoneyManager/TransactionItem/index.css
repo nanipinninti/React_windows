@@ -1,0 +1,14 @@
+.delete-button{
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    padding-top: 5px;
+}
+.delete-icon{
+    height: 25px;
+}
+@media screen and (max-width:576px) {
+    .delete-icon{
+        height: 20px;
+    }
+}

@@ -1,0 +1,77 @@
+.comment-out-listitem{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    min-height: 70px;
+    width: 100%;
+}
+.top{
+    display: flex;
+    gap:10px;
+    min-height: 50px;
+}
+.profilepic{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color:#f97316 ;
+    border: none;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.top-right-top{
+    display: flex;
+    gap: 15px;
+    min-height: 20px;
+}
+.top-right-bottom{
+    min-height: 30px;
+}
+.username{
+    color:#1e293b;
+    font-size: 0.9rem;
+    font-weight: 650;
+    margin-top: 0;
+}
+.time{
+    color : #cbd2d9;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.comment{
+    color:  #7e858e;
+    font-size: 0.9rem;
+    font-weight: 650;
+    margin-top: 0px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+
+}
+.bottom-left{
+    display: flex;
+    gap: 5px;
+}
+.button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.like-text{
+    margin-top: 0;
+    color: #cbd2d9;
+    font-size: 0.9rem;
+}
+.liked {
+    color :  #0ea5e9
+}

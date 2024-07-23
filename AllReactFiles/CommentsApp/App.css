@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+  }
+  .container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  .innercontainer{
+    width: 90%;
+  }
+  .heading{
+    color: #1e293b;
+    font-size: 2.5rem;
+  
+  }
+  .subheading{
+    color: #475569;
+    font-size: 1.1rem;
+  }
+  .comment-in-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .comment-in-name , .comment-in-comment{
+    outline: none;
+    width: 350px;
+    height: 35px;
+    padding : 0 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #cbd2d9;
+    flex-grow: 1;
+  }
+  @media screen and (max-width:575px){
+    .comment-in-name , .comment-in-comment{
+      width: 100%;
+    }
+    .comment-in-form{
+      width: 100%;
+    }
+    .innercontainer{
+      width: 100%;
+    }
+  }
+  .responsive-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+  .innercontainer{
+    width: 80%;
+    max-width: 800px;
+  }
+  @media screen and (max-width: 992px) {
+    .responsive-container {
+      flex-direction: column;
+    }
+    .inner-container{
+      width: 95%;
+    }
+  }
+  .comment-in-box{
+  }
+  .comment-in-comment{
+    height: 100px;
+    padding-top: 5px;
+    
+  }
+  
+  .submit{
+    width: 150px;
+    height: 30px;
+    background-color: #0284c7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  .separator{
+    border: 1px solid #cbd2d9;
+    width: 100%;
+  }
+  .comment-out-heading{
+    color :  #1e293b;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 5px;
+  }
+  .count{
+    background-color: #0284c7;
+    color: white;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .comments{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .image{
+    width: 330px;
+  }
+  @media screen and (max-width:575px){
+    .image{
+      width: 100%;
+    }
+  }

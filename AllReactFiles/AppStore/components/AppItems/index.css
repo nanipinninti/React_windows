@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px ;
+
+    font-size: 0.5rem;
+}
+.box img{
+    width: 100px;
+}
