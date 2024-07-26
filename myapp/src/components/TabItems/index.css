@@ -1,0 +1,19 @@
+
+.button{
+
+}
+.tab-button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+}
+.active-tab{
+    border-bottom: 1px  solid #fec653;
+    color: #fec653;
+}
+@media screen and (max-width:400px) {
+    .tab-button{
+        font-size: 1.05rem;
+    }
+}

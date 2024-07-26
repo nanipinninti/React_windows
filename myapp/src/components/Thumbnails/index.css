@@ -1,0 +1,13 @@
+.thumbnail-button{
+    background:transparent;
+    border: none;
+}
+.thumbnail-img{
+    height: 120px;
+    border-radius: 10px;
+}
+@media screen and (max-width:400px) {
+    .thumbnail-img{
+        height: 80px;
+    }
+}

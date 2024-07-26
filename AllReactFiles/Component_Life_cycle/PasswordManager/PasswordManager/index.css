@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    min-height: 100vh;
+    background: linear-gradient(#9ba9eb,#c3caea);
+    width: 100%;
+}
+.app-logo{
+    width: 20%;
+}

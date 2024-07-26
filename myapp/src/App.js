@@ -1,10 +1,11 @@
-import {Component} from 'react'
-import EmojiGame from './components/EmojiGame'
+import { Component } from "react";
+import MathGame from "./components/MathGame";
+import './App.css'
 class App extends Component{
-    render(){
-        return(
-            <EmojiGame/>
-        )
-    }
+  render(){
+    return(
+      <MathGame />
+    )
+  }
 }
 export default App
